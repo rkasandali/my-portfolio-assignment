@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandali Rathnasekara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Sandali Rathnasekara</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#blogpage">Blog Page</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Sandali Rathnasekara</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            
+            <div class="menu-links">
+                <li><a href="#about"  onclick="toggleMenu()">About</a></li>
+                <li><a href= "#experience"  onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#blogpage"  onclick="toggleMenu()">Blog Page</a></li>
+                <li><a href="#contact"  onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile"> 
+        <div class="section_pic-container">
+            <img src="./asset/profile-pic.png" alt="Sandali Rathnasekara" />
+        </div>
+
+        <div class="section__text">
+            <p class="section__text__p1">Hello I'm</p>
+            <h1 class="title">Sandali Rathnasekara</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+
+            <div class="btn-container">
+                <button class="btn btn-color-2" 
+                        onclick="window.open('./asset/Sandali_Rathnasekara_Resume.pdf', '_blank')">Download CV</button>
+
+                 <button class="btn btn-color-1" 
+                        onclick="location.href=('./#contact')">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img
+                    src="./asset/linkedin.png"
+                    alt="LinkedIn icon"
+                    class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/sandali-rathnasekara-17425935a/' " />
+
+                 <img
+                    src="./asset/github.png"
+                    alt="GitHub Icon"
+                    class="icon"
+                    onclick="location.href='https://github.com' " />
+            </div>
+        </div>
+    </section>
+
+     <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+         
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./asset/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ year <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./asset/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. in Information Technology & Management</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                I am a passionate Frontend Developer with over 1+ years of experience in creating dynamic and responsive web applications. My expertise lies in HTML, CSS, and JavaScript, and I am always eager to learn new technologies and improve my skills. I enjoy collaborating with teams to deliver high-quality products that enhance user experience.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./asset/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./asset/checkmark.png" alt="Experience icon" class="icon" />
+                <div><h3>HTML</h3><p>Experienced</p></div>
+              </article>
+              <article>
+                <img src="./asset/checkmark.png" alt="Experience icon" class="icon" />
+                <div><h3>CSS</h3><p>Experienced</p></div>
+              </article>
+              <article>
+                <img src="./asset/checkmark.png" alt="Experience icon" class="icon" />
+                <div><h3>SASS</h3><p>Intermediate</p></div>
+              </article>
+              <article>
+                <img src="./asset/checkmark.png" alt="Experience icon" class="icon" />
+                <div><h3>JavaScript</h3><p>Basic</p></div>
+              </article>
+              <article>
+                <img src="./asset/checkmark.png" alt="Experience icon" class="icon" />
+                <div><h3>TypeScript</h3><p>Basic</p></div>
+              </article>
+              <article>
+                <img src="./asset/checkmark.png" alt="Experience icon" class="icon" />
+                <div><h3>Material UI</h3><p>Intermediate</p></div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./asset/checkmark.png" alt="Experience icon" class="icon" />
+                <div><h3>PostgreSQL</h3><p>Basic</p></div>
+              </article>
+              <article>
+                <img src="./asset/checkmark.png" alt="Experience icon" class="icon" />
+                <div><h3>Node JS</h3><p>Intermediate</p></div>
+              </article>
+              <article>
+                <img src="./asset/checkmark.png" alt="Experience icon" class="icon" />
+                <div><h3>Express JS</h3><p>Intermediate</p></div>
+              </article>
+              <article>
+                <img src="./asset/checkmark.png" alt="Experience icon" class="icon" />
+                <div><h3>Git</h3><p>Intermediate</p></div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./asset/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#blogpage'"
+      />
+    </section>
+
+    <section id="blogpage">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Blog Articles</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./asset/article01.png" alt="Article 1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">The Magic of Animation</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://medium.com/@rkasandali/4ae3df732191'">
+                Read More
+              </button>
+            </div>
+          </div>
+           <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./asset/artical02.png" alt="Article 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">The Fundamentals of Audio and Video in Multimedia</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://medium.com/@rkasandali/the-fundamentals-of-audio-and-video-in-multimedia-3702b63fbc87'">
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./asset/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        
+        <main class="card" id="card">
+            <div class="sub">I usually reply within 24 hours.</div>
+            <form id="form" novalidate>
+              <div class="field">
+                <input class="input" type="text" id="name" name="name" placeholder=" " required />
+                <label class="label" for="name">Your Name</label>
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5Zm0 2c-4.418 0-8 2.239-8 5v1h16v-1c0-2.761-3.582-5-8-5Z"/>
+                </svg>
+              </div>
+        
+              <div class="field">
+                <input class="input" type="email" id="email" name="email" placeholder=" " required />
+                <label class="label" for="email">Your Email</label>
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v.4l-10 6.25L2 6.4V6Zm0 3.1v8.9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9.1l-9.4 5.87a2 2 0 0 1-2.2 0L2 9.1Z"/>
+                </svg>
+              </div>
+        
+              <div class="field">
+                <input class="input" type="text" id="subject" name="subject" placeholder=" " required />
+                <label class="label" for="subject">Subject</label>
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M3 6h18v2H3V6Zm0 5h12v2H3v-2Zm0 5h18v2H3v-2Z"/>
+                </svg>
+              </div>
+        
+              <div class="field">
+                <textarea class="textarea" id="message" name="message" placeholder=" " required></textarea>
+                <label class="label" for="message">Your Message</label>
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M20 2H4a2 2 0 0 0-2 2v14l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/>
+                </svg>
+              </div>
+        
+              <div class="actions">
+                <button type="submit" class="btn" id="sendBtn">Send Message</button>
+              </div>
+        
+              <div class="success" id="success">
+                <svg width="18" height="18" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z"/>
+                </svg>
+                <span>Thank you! Your message has been received.</span>
+              </div>
+        
+              <div class="footer-note">No spam. Your data stays private.</div>
+            </form>
+        </main>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#blogpage">Blog Page</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Sandali Rathnasekara. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
